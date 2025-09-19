@@ -39,19 +39,22 @@ export const sampleCreator: Creator = {
       id: "video_01",
       title: "My Morning Routine That Changed Everything",
       thumbnail: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=200&fit=crop",
-      posted: "3 days ago"
+      posted: "3 days ago",
+      views: "2.4M"
     },
     {
       id: "video_02",
       title: "Best Coffee Shops in NYC - Hidden Gems",
       thumbnail: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=200&fit=crop",
-      posted: "1 week ago"
+      posted: "1 week ago",
+      views: "1.8M"
     },
     {
       id: "video_03",
       title: "Productivity Tips That Actually Work",
       thumbnail: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=300&h=200&fit=crop",
-      posted: "2 weeks ago"
+      posted: "2 weeks ago",
+      views: "3.1M"
     }
   ],
   conversation: {

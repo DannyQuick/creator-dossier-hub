@@ -30,6 +30,7 @@ export interface Creator {
     title: string;
     thumbnail: string;
     posted: string;
+    views: string;
   }>;
   conversation: {
     summary: string;

@@ -221,7 +221,7 @@ export const CreatorDossierCard: React.FC<CreatorDossierCardProps> = ({
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.25 }}
                         >
-                          United States
+                          YouTube
                         </motion.p>
                       </div>
                       <motion.div
@@ -328,6 +328,7 @@ export const CreatorDossierCard: React.FC<CreatorDossierCardProps> = ({
                             <h4 className="font-medium text-sm line-clamp-2">
                               {video.title}
                             </h4>
+                            <p className="text-xs text-gray-500">{video.views} views</p>
                             <p className="text-xs text-gray-500">{video.posted}</p>
                           </motion.div>
                         ))}
